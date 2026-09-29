@@ -1,0 +1,18 @@
+# ===== 密钥：绝对不要提交 =====
+# .env 里是真实的 REPLICATE_API_TOKEN，提交到公开仓库等于把密钥公开
+.env
+.env.local
+.env.*.local
+
+# ===== WorkBuddy 项目数据（本地记忆与自检脚本，不属于网站内容）=====
+.workbuddy/
+
+# ===== 个人材料，不随网站发布 =====
+*.pdf
+
+# ===== 系统 / 编辑器 / 依赖 =====
+.DS_Store
+Thumbs.db
+desktop.ini
+node_modules/
+*.log
